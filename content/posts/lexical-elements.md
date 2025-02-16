@@ -8,7 +8,7 @@ To understand Go source code, you first need to understand its lexical elements.
 
 Lexical elements define the structure of Go source code, similar to how words form sentences. These elements include identifiers, keywords, operators, literals, and punctuation. The lexer (or lexical analyzer) scans the source code and breaks it down into tokens, which represent these elements. These tokens are then passed to the parser, which constructs an abstract syntax tree (AST) to represent the program’s structure. The AST is used by the compiler to generate executable code.
 
-Don’t worry if this sounds—we won’t get into the details of the lexer, parser, or compiler. Instead, we’ll focus on the lexical elements themselves. Let’s start with the basics.
+Don’t worry if this sounds too complicated—we won’t get into the details of the lexer, parser, or compiler. Instead, we’ll focus on the lexical elements themselves. Let’s start with the basics.
 
 ## Comments
 
@@ -126,7 +126,7 @@ You can use underscores `_` to make numeric literals more readable. They’re ig
 If an underscore is the first or last character in a numeric literal, or if two underscores appear next to each other, the compiler will complain.
 
 ```go
-fmt.Println(0b0_010_0000_)
+fmt.Println(1_000_000_)  
 // Output: '_' must separate successive digits
 ```
 
