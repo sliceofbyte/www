@@ -4,6 +4,8 @@ date: February 16, 2025, 5:02 PM
 version: "go1.24 (Dec 30, 2024)"
 ---
 
+To understand Go source code, you first need to understand its lexical elements. It’s the opening chapter in the Go specification, and that’s where we’ll begin too.
+
 Lexical elements define the structure of Go source code, similar to how words form sentences. These elements include identifiers, keywords, operators, literals, and punctuation. The lexer (or lexical analyzer) scans the source code and breaks it down into tokens, which represent these elements. These tokens are then passed to the parser, which constructs an abstract syntax tree (AST) to represent the program’s structure. The AST is used by the compiler to generate executable code.
 
 ## Comments
