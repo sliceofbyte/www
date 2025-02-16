@@ -8,6 +8,8 @@ To understand Go source code, you first need to understand its lexical elements.
 
 Lexical elements define the structure of Go source code, similar to how words form sentences. These elements include identifiers, keywords, operators, literals, and punctuation. The lexer (or lexical analyzer) scans the source code and breaks it down into tokens, which represent these elements. These tokens are then passed to the parser, which constructs an abstract syntax tree (AST) to represent the program’s structure. The AST is used by the compiler to generate executable code.
 
+Don’t worry if this sounds complicated—we won’t dive into the nitty-gritty of the lexer, parser or compiler. Instead, we’ll focus on the lexical elements themselves. Let’s start with the basics.
+
 ## Comments
 
 Comments are for humans, The compiler ignores them, but you shouldn’t. Just don’t put them inside [string](#string-literals) or [rune literals](#rune-literals)—the parser won’t be amused.
