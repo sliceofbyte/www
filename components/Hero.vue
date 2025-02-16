@@ -16,7 +16,7 @@
           target="_blank"
           >sliceofbyte.io</a
         >
-        is a blog that serves up the Go language specification in bite-sized chunks—small enough to chew, big enough to learn.
+        is a blog that serves up the <a href="https://go.dev/ref/spec">Go language specification</a> in bite-sized chunks—small enough to chew, big enough to learn.
       </p>
       <p class="mt-4 text-base leading-7 text-slate-600">
         Gopher artwork by Ashley McNamara licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 License.
