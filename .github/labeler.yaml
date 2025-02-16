@@ -1,0 +1,27 @@
+github-actions:
+  - changed-files:
+      - any-glob-to-any-file:
+        - '.github/**'
+        - '.goreleaser.yaml'
+
+dependencies:
+  - changed-files:
+      - any-glob-to-any-file:
+        - 'package.json'
+        - 'package-lock.json'
+        - 'yarn.lock'
+
+legal:
+  - changed-files:
+      - any-glob-to-any-file:
+        - 'LICENSE'
+
+vue:
+  - changed-files:
+      - any-glob-to-any-file:
+        - '**/*.vue'
+
+post:
+  - changed-files:
+      - any-glob-to-any-file:
+        - content/posts/*.md'
