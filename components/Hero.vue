@@ -16,9 +16,7 @@
           target="_blank"
           >sliceofbyte.io</a
         >
-        is a blog that breaks down the Go language specification into byte-sized, 
-        digestible chunks. It’s designed to help you learn Go effortlessly, 
-        one small and easy-to-understand piece at a time.
+        is a blog that serves up the Go language specification in bite-sized chunks—small enough to chew, big enough to learn.
       </p>
       <p class="mt-4 text-base leading-7 text-slate-600">
         Gopher artwork by Ashley McNamara licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 License.
