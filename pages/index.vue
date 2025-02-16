@@ -11,21 +11,21 @@
 </template>
 
 <script setup>
-import seoConfig from "../seoConfig/index";
+import seo from "../seo/index";
 useHead({
-  title: seoConfig.title,
+  title: seo.title,
   meta: [
     {
       name: "description",
-      content: seoConfig.description,
+      content: seo.description,
       meta: [
-        { name: "og:title", content: seoConfig.og.title },
-        { name: "og:description", content: seoConfig.og.description },
-        { name: "og:image", content: seoConfig.og.image },
-        { name: "og:url", content: seoConfig.og.url },
-        { name: "twitter:title", content: seoConfig.og.title },
-        { name: "twitter:description", content: seoConfig.og.description },
-        { name: "twitter:image", content: seoConfig.og.image },
+        { name: "og:title", content: seo.og.title },
+        { name: "og:description", content: seo.og.description },
+        { name: "og:image", content: seo.og.image },
+        { name: "og:url", content: seo.og.url },
+        { name: "twitter:title", content: seo.og.title },
+        { name: "twitter:description", content: seo.og.description },
+        { name: "twitter:image", content: seo.og.image },
         { name: "twitter:card", content: "summary_large_image" },
       ],
     },
