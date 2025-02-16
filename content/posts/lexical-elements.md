@@ -112,7 +112,7 @@ Imaginary literals are commonly used in scientific computing and graphics applic
 3.14i
 ```
 
-## Using `_` in numeric literals
+## Using underscores in numeric literals
 
 You can use underscores `_` to make numeric literals more readable. They’re ignored by the compiler.
 
