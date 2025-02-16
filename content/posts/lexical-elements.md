@@ -45,7 +45,7 @@ Whitespace separates tokens but is otherwise ignored.
 
 Go has semicolons, but you don’t need to type them. The lexer inserts them automatically at the end of a line if the last token is:
 
-- an identifier  
+- an identifier (`x`, `MyFunc`, etc.)
 - a literal (`42`, `"hello"`, etc.)  
 - `break`, `continue`, `fallthrough`, or `return`  
 - an operator like `++`, `--`, `)`, `]`, or `}`  
