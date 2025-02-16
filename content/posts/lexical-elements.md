@@ -4,11 +4,11 @@ date: February 16, 2025, 5:02 PM
 version: "go1.24 (Dec 30, 2024)"
 ---
 
-Lexical elements define the structure of Go source code, much like words form sentences. They include comments, tokens, identifiers, keywords, operators, and literals. These fundamental building blocks help the compiler analyze and interpret your code.
+Lexical elements define the structure of Go source code, similar to how words form sentences. These elements include identifiers, keywords, operators, literals, and punctuation. The lexer (or lexical analyzer) scans the source code and breaks it down into tokens, which represent these elements. These tokens are then passed to the parser, which constructs an abstract syntax tree (AST) to represent the program’s structure. The AST is used by the compiler to generate executable code.
 
 ## Comments
 
-Comments are for humans, The compiler ignores them, but you shouldn’t. Just don’t put them inside string or rune literals—the parser won’t be amused.
+Comments are for humans, The compiler ignores them, but you shouldn’t. Just don’t put them inside [string](#string-literals) or [rune literals](#rune-literals)—the parser won’t be amused.
 
 Go has two types of comments:  
 
